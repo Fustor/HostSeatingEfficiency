@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/hostSeatingEfficency.dir/main.cpp.o CMakeFiles/hostSeatingEfficency.dir/restaurant.cpp.o CMakeFiles/hostSeatingEfficency.dir/section.cpp.o  -o hostSeatingEfficency 

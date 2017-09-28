@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zach/CLionProjects/hostSeatingEfficency/main.cpp
+iostream
+-
+restaurant.h
+/home/zach/CLionProjects/hostSeatingEfficency/restaurant.h
+section.h
+/home/zach/CLionProjects/hostSeatingEfficency/section.h
+vector
+-
+
+/home/zach/CLionProjects/hostSeatingEfficency/restaurant.cpp
+restaurant.h
+/home/zach/CLionProjects/hostSeatingEfficency/restaurant.h
+iostream
+-
+
+/home/zach/CLionProjects/hostSeatingEfficency/restaurant.h
+vector
+-
+section.h
+/home/zach/CLionProjects/hostSeatingEfficency/section.h
+
+/home/zach/CLionProjects/hostSeatingEfficency/section.cpp
+section.h
+/home/zach/CLionProjects/hostSeatingEfficency/section.h
+iostream
+-
+
+/home/zach/CLionProjects/hostSeatingEfficency/section.h
+vector
+-
+
