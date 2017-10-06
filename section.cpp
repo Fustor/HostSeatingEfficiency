@@ -3,18 +3,50 @@
 //
 
 #include "section.h"
-#include <iostream>
-section::section(int a, int b, int c) { //called by restaurant.setSections
-    for(int i = 0;i<a;i++) {            //each section has a,b,or c # of tables set to
-        sixTops.push_back(0);           //value 0 (unseated)
+
+section::section(int a, int b, int c) {
+    twoTops = new vector<int>;
+    fourTops = new vector<int>;
+    sixTops = new vector<int>;
+    for(int i = 0;i<a;i++) {
+        this->twoTops->push_back(0);
     }
+
     for(int i = 0;i<b;i++) {
-        fourTops.push_back(0);
+        this->fourTops->push_back(0);
     }
     for(int i = 0;i<c;i++) {
-        twoTops.push_back(0);
+        this->sixTops->push_back(0);
     }
 }
-void section::getTotalTableAmounts() {
-    cout << sixTops.size() << " " << fourTops.size() << " " << twoTops.size() << endl;
+void section::printTables() {
+    cout << endl << "Two Tops: ";
+    for(int i = 0;i<this->twoTops->size();i++) {
+        cout << this->twoTops->at(i) << " ";
+    }
+    cout << endl << "Four Tops: ";
+    for(int i = 0;i<this->fourTops->size();i++) {
+        cout << this->fourTops->at(i) << " ";
+    }
+    cout << endl << "Six Tops: ";
+    for(int i = 0;i<this->sixTops->size();i++) {
+        cout << this->sixTops->at(i) << " ";
+    }
+}
+void section::seatTable(vector<int> &a,int people) {
+    for(int i = 0;i<a.size();i++) {
+        if(a.at(i) == 0) {
+            a.at(i) = people;
+            break;
+        }
+    }
+}
+vector<int>* section::getTwoTops() {
+    return this->twoTops;
+}
+vector<int>* section::getFourTops() {
+    return this->fourTops;
+}
+vector<int>* section::getSixTops() {
+    return this->sixTops;
 }

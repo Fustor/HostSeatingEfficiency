@@ -10,22 +10,20 @@ using namespace std;
 class restaurant {
 private:
     vector<section> sections;
-    int totalSections;
-    int goodSeats;
     int totalSeats;
+    int goodSeats;
     int nextSection;
 public:
     restaurant();
-    restaurant(int);
-    // ~restaurant();
-    int getCommand();
-    void exeCommand(int);
-    bool contProgram();
-    void setSectionInfo();
-    void setSection(int,int,int);
-    void setNextSection();
+    vector<section> getAllSections();
+    section getSection();
+    int getTotalSeats();
+    int getGoodSeats();
     int getNextSection();
-    int getTotalSections();
+    void setSections();
+    void setNextSection();
+    int getEfficiency();
+
 
 
 };
