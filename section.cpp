@@ -32,13 +32,30 @@ void section::printTables() {
     for(int i = 0;i<this->sixTops->size();i++) {
         cout << this->sixTops->at(i) << " ";
     }
+    cout << endl;
 }
 void section::seatTable(vector<int> &a,int people) {
-    for(int i = 0;i<a.size();i++) {
-        if(a.at(i) == 0) {
-            a.at(i) = people;
-            break;
+    if(&a == (this->twoTops) && people > 2) {
+        cout << "Table not big enough for party. Try again." << endl;
+
+    }
+    else if(&a == (this->fourTops) && people > 4) {
+        cout << "Table not big enough for party. Try again." << endl;
+
+    }
+    else if(&a == (this->sixTops) && people > 6) {
+        cout << "Table not big enough for party. Try again." << endl;
+
+    }
+    else {
+        for(int i = 0;i<a.size();i++) {
+            if (a.at(i) == 0) {
+                a.at(i) = people;
+                break;
+            }
         }
+
+
     }
 }
 vector<int>* section::getTwoTops() {

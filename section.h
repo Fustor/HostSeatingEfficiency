@@ -23,7 +23,7 @@ public:
     void setFourTops();
     void setSixTops();
     void seatTable(vector<int>&,int);
-    void unseatTable(vector<int>&);
+    void unseatTable(vector<int>&,int);
     void printTables();
 
 
