@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/hostSeatingEfficency.dir/main.cpp.o"
   "CMakeFiles/hostSeatingEfficency.dir/restaurant.cpp.o"
   "CMakeFiles/hostSeatingEfficency.dir/section.cpp.o"
+  "CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o"
+  "CMakeFiles/hostSeatingEfficency.dir/command.cpp.o"
   "hostSeatingEfficency.pdb"
   "hostSeatingEfficency"
 )

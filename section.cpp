@@ -34,6 +34,7 @@ void section::printTables() {
     }
     cout << endl;
 }
+
 void section::seatTable(vector<int> &a,int people) {
     if(&a == (this->twoTops) && people > 2) {
         cout << "Table not big enough for party. Try again." << endl;
@@ -48,14 +49,38 @@ void section::seatTable(vector<int> &a,int people) {
 
     }
     else {
-        for(int i = 0;i<a.size();i++) {
-            if (a.at(i) == 0) {
-                a.at(i) = people;
-                break;
+        if((this->isFull(a))) {
+            cout << "Cannot seat, that table is not available." << endl;
+        }
+        else{
+            for(int i = 0;i<a.size();i++) {
+                if (a.at(i) == 0) {
+                    a.at(i) = people;
+                    break;
+                }
             }
+
         }
 
 
+
+    }
+}
+bool section::isFull(vector<int> a) {
+    for(int i = 0;i<a.size();i++) {
+        if(a.at(i) == 0) {
+            return false;
+        }
+    }
+    return true;
+}
+void section::unseatTable(vector<int> &a, int b) {
+
+    for(int i = 0;i<a.size();i++) {
+        if(a.at(i) == b) {
+            a.at(i) = 0;
+            break;
+        }
     }
 }
 vector<int>* section::getTwoTops() {

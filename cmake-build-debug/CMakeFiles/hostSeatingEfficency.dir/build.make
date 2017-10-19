@@ -129,11 +129,61 @@ CMakeFiles/hostSeatingEfficency.dir/section.cpp.o.provides: CMakeFiles/hostSeati
 CMakeFiles/hostSeatingEfficency.dir/section.cpp.o.provides.build: CMakeFiles/hostSeatingEfficency.dir/section.cpp.o
 
 
+CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o: CMakeFiles/hostSeatingEfficency.dir/flags.make
+CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o: ../rotation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zach/CLionProjects/hostSeatingEfficency/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o -c /home/zach/CLionProjects/hostSeatingEfficency/rotation.cpp
+
+CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zach/CLionProjects/hostSeatingEfficency/rotation.cpp > CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.i
+
+CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zach/CLionProjects/hostSeatingEfficency/rotation.cpp -o CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.s
+
+CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o.requires:
+
+.PHONY : CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o.requires
+
+CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o.provides: CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/hostSeatingEfficency.dir/build.make CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o.provides.build
+.PHONY : CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o.provides
+
+CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o.provides.build: CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o
+
+
+CMakeFiles/hostSeatingEfficency.dir/command.cpp.o: CMakeFiles/hostSeatingEfficency.dir/flags.make
+CMakeFiles/hostSeatingEfficency.dir/command.cpp.o: ../command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zach/CLionProjects/hostSeatingEfficency/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hostSeatingEfficency.dir/command.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hostSeatingEfficency.dir/command.cpp.o -c /home/zach/CLionProjects/hostSeatingEfficency/command.cpp
+
+CMakeFiles/hostSeatingEfficency.dir/command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hostSeatingEfficency.dir/command.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zach/CLionProjects/hostSeatingEfficency/command.cpp > CMakeFiles/hostSeatingEfficency.dir/command.cpp.i
+
+CMakeFiles/hostSeatingEfficency.dir/command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hostSeatingEfficency.dir/command.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zach/CLionProjects/hostSeatingEfficency/command.cpp -o CMakeFiles/hostSeatingEfficency.dir/command.cpp.s
+
+CMakeFiles/hostSeatingEfficency.dir/command.cpp.o.requires:
+
+.PHONY : CMakeFiles/hostSeatingEfficency.dir/command.cpp.o.requires
+
+CMakeFiles/hostSeatingEfficency.dir/command.cpp.o.provides: CMakeFiles/hostSeatingEfficency.dir/command.cpp.o.requires
+	$(MAKE) -f CMakeFiles/hostSeatingEfficency.dir/build.make CMakeFiles/hostSeatingEfficency.dir/command.cpp.o.provides.build
+.PHONY : CMakeFiles/hostSeatingEfficency.dir/command.cpp.o.provides
+
+CMakeFiles/hostSeatingEfficency.dir/command.cpp.o.provides.build: CMakeFiles/hostSeatingEfficency.dir/command.cpp.o
+
+
 # Object files for target hostSeatingEfficency
 hostSeatingEfficency_OBJECTS = \
 "CMakeFiles/hostSeatingEfficency.dir/main.cpp.o" \
 "CMakeFiles/hostSeatingEfficency.dir/restaurant.cpp.o" \
-"CMakeFiles/hostSeatingEfficency.dir/section.cpp.o"
+"CMakeFiles/hostSeatingEfficency.dir/section.cpp.o" \
+"CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o" \
+"CMakeFiles/hostSeatingEfficency.dir/command.cpp.o"
 
 # External object files for target hostSeatingEfficency
 hostSeatingEfficency_EXTERNAL_OBJECTS =
@@ -141,9 +191,11 @@ hostSeatingEfficency_EXTERNAL_OBJECTS =
 hostSeatingEfficency: CMakeFiles/hostSeatingEfficency.dir/main.cpp.o
 hostSeatingEfficency: CMakeFiles/hostSeatingEfficency.dir/restaurant.cpp.o
 hostSeatingEfficency: CMakeFiles/hostSeatingEfficency.dir/section.cpp.o
+hostSeatingEfficency: CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o
+hostSeatingEfficency: CMakeFiles/hostSeatingEfficency.dir/command.cpp.o
 hostSeatingEfficency: CMakeFiles/hostSeatingEfficency.dir/build.make
 hostSeatingEfficency: CMakeFiles/hostSeatingEfficency.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zach/CLionProjects/hostSeatingEfficency/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable hostSeatingEfficency"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zach/CLionProjects/hostSeatingEfficency/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable hostSeatingEfficency"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hostSeatingEfficency.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +206,8 @@ CMakeFiles/hostSeatingEfficency.dir/build: hostSeatingEfficency
 CMakeFiles/hostSeatingEfficency.dir/requires: CMakeFiles/hostSeatingEfficency.dir/main.cpp.o.requires
 CMakeFiles/hostSeatingEfficency.dir/requires: CMakeFiles/hostSeatingEfficency.dir/restaurant.cpp.o.requires
 CMakeFiles/hostSeatingEfficency.dir/requires: CMakeFiles/hostSeatingEfficency.dir/section.cpp.o.requires
+CMakeFiles/hostSeatingEfficency.dir/requires: CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o.requires
+CMakeFiles/hostSeatingEfficency.dir/requires: CMakeFiles/hostSeatingEfficency.dir/command.cpp.o.requires
 
 .PHONY : CMakeFiles/hostSeatingEfficency.dir/requires
 

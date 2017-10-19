@@ -22,6 +22,7 @@ public:
     void setTwoTops();
     void setFourTops();
     void setSixTops();
+    bool isFull(vector<int>);
     void seatTable(vector<int>&,int);
     void unseatTable(vector<int>&,int);
     void printTables();

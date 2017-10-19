@@ -25,6 +25,8 @@ vector
 -
 section.h
 /home/zach/CLionProjects/hostSeatingEfficency/section.h
+iostream
+-
 
 /home/zach/CLionProjects/hostSeatingEfficency/section.cpp
 section.h

@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/zach/CLionProjects/hostSeatingEfficency/command.cpp">
+			<Option target="hostSeatingEfficency"/>
+		</Unit>
+		<Unit filename="/home/zach/CLionProjects/hostSeatingEfficency/command.h">
+			<Option target="hostSeatingEfficency"/>
+		</Unit>
 		<Unit filename="/home/zach/CLionProjects/hostSeatingEfficency/main.cpp">
 			<Option target="hostSeatingEfficency"/>
 		</Unit>
@@ -91,6 +97,12 @@
 			<Option target="hostSeatingEfficency"/>
 		</Unit>
 		<Unit filename="/home/zach/CLionProjects/hostSeatingEfficency/restaurant.h">
+			<Option target="hostSeatingEfficency"/>
+		</Unit>
+		<Unit filename="/home/zach/CLionProjects/hostSeatingEfficency/rotation.cpp">
+			<Option target="hostSeatingEfficency"/>
+		</Unit>
+		<Unit filename="/home/zach/CLionProjects/hostSeatingEfficency/rotation.h">
 			<Option target="hostSeatingEfficency"/>
 		</Unit>
 		<Unit filename="/home/zach/CLionProjects/hostSeatingEfficency/section.cpp">

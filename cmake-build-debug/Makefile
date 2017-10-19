@@ -123,6 +123,33 @@ hostSeatingEfficency/fast:
 	$(MAKE) -f CMakeFiles/hostSeatingEfficency.dir/build.make CMakeFiles/hostSeatingEfficency.dir/build
 .PHONY : hostSeatingEfficency/fast
 
+command.o: command.cpp.o
+
+.PHONY : command.o
+
+# target to build an object file
+command.cpp.o:
+	$(MAKE) -f CMakeFiles/hostSeatingEfficency.dir/build.make CMakeFiles/hostSeatingEfficency.dir/command.cpp.o
+.PHONY : command.cpp.o
+
+command.i: command.cpp.i
+
+.PHONY : command.i
+
+# target to preprocess a source file
+command.cpp.i:
+	$(MAKE) -f CMakeFiles/hostSeatingEfficency.dir/build.make CMakeFiles/hostSeatingEfficency.dir/command.cpp.i
+.PHONY : command.cpp.i
+
+command.s: command.cpp.s
+
+.PHONY : command.s
+
+# target to generate assembly for a file
+command.cpp.s:
+	$(MAKE) -f CMakeFiles/hostSeatingEfficency.dir/build.make CMakeFiles/hostSeatingEfficency.dir/command.cpp.s
+.PHONY : command.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -177,6 +204,33 @@ restaurant.cpp.s:
 	$(MAKE) -f CMakeFiles/hostSeatingEfficency.dir/build.make CMakeFiles/hostSeatingEfficency.dir/restaurant.cpp.s
 .PHONY : restaurant.cpp.s
 
+rotation.o: rotation.cpp.o
+
+.PHONY : rotation.o
+
+# target to build an object file
+rotation.cpp.o:
+	$(MAKE) -f CMakeFiles/hostSeatingEfficency.dir/build.make CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o
+.PHONY : rotation.cpp.o
+
+rotation.i: rotation.cpp.i
+
+.PHONY : rotation.i
+
+# target to preprocess a source file
+rotation.cpp.i:
+	$(MAKE) -f CMakeFiles/hostSeatingEfficency.dir/build.make CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.i
+.PHONY : rotation.cpp.i
+
+rotation.s: rotation.cpp.s
+
+.PHONY : rotation.s
+
+# target to generate assembly for a file
+rotation.cpp.s:
+	$(MAKE) -f CMakeFiles/hostSeatingEfficency.dir/build.make CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.s
+.PHONY : rotation.cpp.s
+
 section.o: section.cpp.o
 
 .PHONY : section.o
@@ -213,12 +267,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... hostSeatingEfficency"
+	@echo "... command.o"
+	@echo "... command.i"
+	@echo "... command.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... restaurant.o"
 	@echo "... restaurant.i"
 	@echo "... restaurant.s"
+	@echo "... rotation.o"
+	@echo "... rotation.i"
+	@echo "... rotation.s"
 	@echo "... section.o"
 	@echo "... section.i"
 	@echo "... section.s"
