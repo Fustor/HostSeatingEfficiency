@@ -8,15 +8,16 @@
 #include <vector>
 #include "rotation.h"
 #include <iostream>
+#include "section.h"
 using namespace std;
 class rotation {
 private:
     vector<int>* rotationSums;
 public:
     rotation(int);
-    int getNextSection;
+    int getNextSection();
     bool isFollowingRotation(int);
-    void setNextRotation();
+    void setNextRotation(int);
 
 
 };

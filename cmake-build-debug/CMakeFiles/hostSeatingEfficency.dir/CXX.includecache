@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/zach/CLionProjects/hostSeatingEfficency/command.cpp
+command.h
+/home/zach/CLionProjects/hostSeatingEfficency/command.h
+
+/home/zach/CLionProjects/hostSeatingEfficency/command.h
+vector
+-
+command.h
+/home/zach/CLionProjects/hostSeatingEfficency/command.h
+iostream
+-
+
 /home/zach/CLionProjects/hostSeatingEfficency/main.cpp
 iostream
 -
@@ -25,6 +37,18 @@ vector
 -
 section.h
 /home/zach/CLionProjects/hostSeatingEfficency/section.h
+iostream
+-
+
+/home/zach/CLionProjects/hostSeatingEfficency/rotation.cpp
+rotation.h
+/home/zach/CLionProjects/hostSeatingEfficency/rotation.h
+
+/home/zach/CLionProjects/hostSeatingEfficency/rotation.h
+vector
+-
+rotation.h
+/home/zach/CLionProjects/hostSeatingEfficency/rotation.h
 iostream
 -
 
