@@ -11,9 +11,9 @@ using namespace std;
 class restaurant {
 private:
     vector<section*>* sections;
-    int* totalSeats;
-    int* goodSeats;
-    int* nextSection;
+    int totalSeats;
+    int goodSeats;
+    int nextSection;
     vector<int>* currentRotation;
     int amountOfSections;
 public:

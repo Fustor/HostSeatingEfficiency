@@ -14,6 +14,7 @@ CMakeFiles/hostSeatingEfficency.dir/restaurant.cpp.o: ../section.h
 
 CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o: ../rotation.cpp
 CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o: ../rotation.h
+CMakeFiles/hostSeatingEfficency.dir/rotation.cpp.o: ../section.h
 
 CMakeFiles/hostSeatingEfficency.dir/section.cpp.o: ../section.cpp
 CMakeFiles/hostSeatingEfficency.dir/section.cpp.o: ../section.h

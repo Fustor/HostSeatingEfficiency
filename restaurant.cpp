@@ -27,10 +27,20 @@ restaurant::restaurant() {//fills sections vector with sections container empty 
 int restaurant::getTotalSections() {
     return amountOfSections;
 }
+int restaurant::getTotalSeats() {
+    return totalSeats;
+}
+int restaurant::getGoodSeats() {
+    return goodSeats;
+}
+int restaurant::getNextSection() {
+    return nextSection;
+}
 section* restaurant::getSection(int a) {
     return sections->at(a-1);//user doesnt know arrays start at 0
 }
 void restaurant::seatTable(int sectionNum, int peopleAmount, int tableSize) {
+    totalSeats++;
     if(tableSize == 6) {
         this->sections->at(sectionNum-1)->seatTable(*(this->sections->at(sectionNum-1)->getSixTops()),peopleAmount);
     }
